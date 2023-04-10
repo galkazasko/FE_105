@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&family=Tourney:wght@600&display=swap');
+
+.header__container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #fff;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 100px 1fr 250px;
+    align-items: center;
+    left: 0;
+    right: 0;
+}  
+.main__menu ul li:nth-child(1) a:after {
+    content: "/";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lang {
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: 0.04em;
+}
+.main__menu {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 5;
+    letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none;
+    text-align: start;
+    color: #000000;
+}
+.sitebar {
+    margin-top: 50px;
+}
+nav {
+    position: sticky;
+    top: 80px;
+}
+ul li {
+    display: inline;
+    text-align: center;
+}
+.content .item {
+    position: relative;
+}
+.content .item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100px;
+    border: 8px solid #000;
+}
+main {
+    position: relative;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    max-height: 2375px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    margin-top: 30px;
+}
+h2 {
+    font-family: 'Francois One';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    display: inline-block;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+span.chapter {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    position: relative;
+    top: -16px;
+    font-size: 16px;
+}
+p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+p span.line {
+    text-decoration: underline;
+}
+p span.italic {
+    font-style: italic;
+}
+p span.bold {
+    font-weight: 700;
+}
+p span.bg {
+    background-color: #DADADA;
+    ;
+}
