@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Quicksand:wght@500&family=Roboto&display=swap');
+
+.container {
+    height: auto;
+}
+.header__container {
+    border-bottom: 1px solid #EFEEF3;
+    height: 58px;
+    display: block;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 135px;
+    margin-left: 135px;
+    margin-top: 22px;
+}
+
+.header .logo {
+    fill: #fff; 
+    stroke: #3DB370;
+}
+
+h1 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #16133D;
+    margin-left: 13px;
+}
+
+h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.heading h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+    text-transform: uppercase;
+    margin-top: 180px;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 138px;
+    margin-right: 138px;
+}
+
+.heading {
+    grid-area: 1/4/2/1;
+}
+
+.design {
+    grid-area: 2/2/3/1;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+}
+
+.ecommerce {
+    grid-area: 2/3/3/2;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+}
+
+.application {
+    grid-area: 2/4/3/3;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+}
+
+.design h3, .ecommerce h3,
+.application h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin-left: 40px;
+    margin-top: 44px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #16133D;
+    margin: 15px 55px 30px 40px;
+}
+
+.service a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+    text-decoration: none;
+   
+}
+
+.link {
+    margin-bottom: 41px;
+    margin-left: 40px;
+}
+
+.megafon {
+    display: block;
+    margin-left: 53px;
+    margin-top: 54.5px;
+}
+
+.building {
+    display: block;
+    margin-left: 53px;
+    margin-top: 54px;
+}
+
+.phone {
+    display: block;
+    margin-left: 59.97px;
+    margin-top: 54px;
+}
+
+.design:hover,.ecommerce:hover,.application:hover {
+    border-color:#3DB370;
+}
+
+.design:hover svg.megafon, 
+.ecommerce:hover svg.building,
+.application:hover svg.phone {
+    fill: #E1F4F5;
+    stroke: #52C29D;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 193px; 
+    margin-top: 100px;
+    background-color: #16133D;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 135px;
+    margin-left: 135px;
+    margin-top: 22px;
+}
+
+.footer_title {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFF;
+    margin-top: 39.5px;
+    margin-left: 13px; 
+}
+
+.logo_vector {
+    margin-top: 10px;
+}
+
+.social_media {
+    margin-left: 136px;
+}
+
+.social_media svg {
+   width: 38px;
+   height: 38px;
+   overflow: hidden;
+}
+
+.social_media svg:nth-child(even) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
