@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Homework 6 Forms</title>
+</head>
+<body>
+    <div class="form_wrapper">
+        <form class="form" method="post">
+            <h1> Форма реєстрації користувача </h1>
+            <div class="field">
+            <label class="name"> Повне ім'я
+                <input type="text" name="name" required />
+            </label>
+            <label>Email
+            <input type="email" name="email" required />
+            </label>
+            <label>Пароль
+            <input type="password" name="password" required />
+            </label>
+            <label> Пароль ще раз
+            <input type="password" name="password" required />
+            </label>
+            <label class="gender">Стать
+                <input type="radio" name="gender" value="male" required /> чоловіча
+                <input type="radio" name="gender" value="female" /> жіноча
+            </label>
+            <label>Вік <input type="number" name="age" />
+            </label>
+            <label>Курс
+            <select id="Course">
+                <option value="Front-End">Front-End</option>
+                <option value="Back-End">Back-End</option>
+                <option value="Project management">Project management</option>
+                <option value="QA Manual">QA Manual</option>
+            </select>
+            </label>
+            <label class="adress">Адреса
+            <textarea
+                name="adress"
+                rows="5"
+                placeholder="Країна, регіон, місто/селище, вулиця"
+            ></textarea>
+            </label>
+    
+            <label class="checkbox__policy">
+            <input type="checkbox" name="policy" required />
+            <p>Я погоджуюсь з обробкою персональних даних</p> 
+            </label>
+        </div>
+            <div class="container_buttons">
+                <input type="reset" value="Очистити форму" class="input_reset"/>
+                <input type="submit" value="Зареєструватися" class="input_submit"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

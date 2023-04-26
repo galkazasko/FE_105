@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.form_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Roboto;
+    }
+.form {
+    width: 420px;
+    height: 420px;
+    background-color: rgb(207, 194, 194);
+    padding: 10px;
+}
+h1 {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.field {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+.field label {
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox__policy p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.container_button {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
