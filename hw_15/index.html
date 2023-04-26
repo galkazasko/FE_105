@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create an Account</h1>
+        <form action="#" class="form" autocomplete="off">
+            <div class="name">
+                <label for="first-name" class="label">First Name</label>
+                <input type="text" name="first-name" id="name" class="input__field">
+            </div>
+            <div class="surname">
+                <label for="last-name" class="label">Last Name</label>
+                <input type="text" name="last-name" id="name" class="input__field">
+            </div>
+            <div class="email">
+                <label for="email" class="label">E-mail</label>
+                <input type="email" name="email" id="email" class="input__field">
+                <p class="notice">We'll never share your email with anyone else.</p>
+            </div>
+            <div class="gender">
+                <div class="radio">
+                    <input class="custom-radio" type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                  </div>
+                  <div class="radio">
+                    <input class="custom-radio" type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                  </div>
+            </div>
+            <div class="country">
+                <label>Country</label>
+                <select name="country" id="country" placeholder="select" required class="select">
+                <option value="select">Select</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Danmark">Danmark</option>
+                <option value="Norway">Norway</option>
+                </select>
+            </div>
+            <div class="city">
+                <label for="city">City</label>
+                <input id="city" type="text" name="city" required />
+            </div>
+            <div class="button">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <div class="text__under">
+            <div class="p__policy">
+                <p> By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            </div>
+            <div class="login">
+                <p>Have an account?</p>
+                <a href="#">Log In</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
